@@ -5,4 +5,4 @@ master,should respond valid status,200,should be a protected branch,true,should 
 - branch is protected or not 
 - name is correct or not (the jlipps/docs-todo is failed on purpose for reporting)"
 releases/1.22,should respond valid status,200,should be a protected branch,true,should be a correct branch name,releases/1.22,
-jlipps/docs-todos,tc_01,200,should not be a protected branch,false,should be a correct branch name,jlipps/docs-todo,
+jlipps/docs-todos,should respond valid status,200,should not be a protected branch,false,should be a correct branch name,jlipps/docs-todo,
