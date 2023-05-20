@@ -1,3 +1,3 @@
-input_owner,input_repo,expected_status,expected_response_time
-appium,appium,200,
-cypress-io,cypress,200,
+input_owner,input_repo,tc_01,expected_status,tc_02,expected_response_time
+appium,appium,should respond valid status,200,should respond within valid time,1000
+cypress-io,cypress,should respond valid status,200,should respond within valid time,1000
