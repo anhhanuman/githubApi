@@ -28,3 +28,23 @@ jobs:
           name: ${{ env.TEST_GROUP }}
           path: ./testResults/${{ env.TEST_GROUP }}
           if-no-files-found: error
+
+  appium_branches_test:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    env:
+      TEST_GROUP: appium_branches_test
+    steps:
+      - uses: actions/checkout@v3
+      - name: ${{ env.TEST_GROUP }}
+        run: |
+          npm install
+          mkdir -p testResults/${{ env.TEST_GROUP }}
+          npm run ${{ env.TEST_GROUP }}
+      - name:  Test Reports
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.TEST_GROUP }}
+          path: ./testResults/${{ env.TEST_GROUP }}
+          if-no-files-found: error

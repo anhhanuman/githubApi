@@ -4,7 +4,8 @@
   "description": "Test Automation with GitHub API",
   "main": "index.js",
   "scripts": {
-    "owner_repo_test": ""
+    "owner_repo_test": "bash run_test.sh owner_repo_test",
+    "appium_branches_test": "bash run_test.sh appoum_branches_test"
   },
   "repository": {
     "type": "git",
