@@ -7,7 +7,7 @@ TEST_REPO_REPORT_NAME="GitHub API OWNER REPO REPORT"
 
 POSTMAN_APPIUM_TEST_SUITE_FOLDER="branch"
 TEST_APPIUM_DATA_PATH="test-cases/test_appium_specific_branch.csv"
-TEST_APPIUM_REPORT_PATH="testResults/appium/htmlreport.html"
+TEST_APPIUM_REPORT_PATH="testResults/appium_branches_test/htmlreport.html"
 TEST_APPIUM_REPORT_NAME="GitHub API APPIUM BRANCH REPORT"
 
 POSTMAN_FOLDER=""
