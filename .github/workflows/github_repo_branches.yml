@@ -1,5 +1,4 @@
-name: github api repo and branches test by Anh
-
+name: repoes and appium branch
 on:
   workflow_dispatch:
 env:

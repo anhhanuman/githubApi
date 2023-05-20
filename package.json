@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "owner_repo_test": "bash run_test.sh owner_repo_test",
-    "appium_branches_test": "bash run_test.sh appoum_branches_test"
+    "appium_branches_test": "bash run_test.sh appium_branches_test"
   },
   "repository": {
     "type": "git",
