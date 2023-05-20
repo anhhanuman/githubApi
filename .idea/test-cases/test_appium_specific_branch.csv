@@ -1,0 +1,8 @@
+input_owner,input_repo,input_branch,expected_status,expected_protected,expected_name,test description
+appium,appium,master,200,true,master,"data driven testing, each row is an iteration which can test a lot of cases. The response returns for each branch can be incorrect, therefore this technique can hep to test if 
+
+- status as expected 
+- branch is protected or not 
+- name is correct or not (the jlipps/docs-todo is failed on purpose for reporting)"
+appium,appium,releases/1.22,200,true,releases/1.22,
+appium,appium,jlipps/docs-todos,200,false,jlipps/docs-todo,
