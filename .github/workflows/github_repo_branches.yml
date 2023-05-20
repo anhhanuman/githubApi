@@ -1,0 +1,30 @@
+name: github api repo and branches test by Anh
+
+on:
+  workflow_dispatch:
+env:
+    POSTMAN_API_URL: ${{ secrets.POSTMAN_API_URL }}
+    POSTMAN_API_KEY: ${{ secrets.POSTMAN_GITHUB_API_ANH }}
+    POSTMAN_COLLECTION_UID: ''
+    POSTMAN_ENVIRONMENT_UID: ${{ secrets.POSTMAN_ENVIRONMENT_GITHUB_PROD }}
+    
+jobs:
+  owner_repo_test:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    env:
+      TEST_GROUP: owner_repo_test
+    steps:
+      - uses: actions/checkout@v3
+      - name: ${{ env.TEST_GROUP }}
+        run: |
+          npm install
+          mkdir -p testResults/${{ env.TEST_GROUP }}
+          npm run ${{ env.TEST_GROUP }}
+      - name:  Test Reports
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.TEST_GROUP }}
+          path: ./testResults/${{ env.TEST_GROUP }}
+          if-no-files-found: error
