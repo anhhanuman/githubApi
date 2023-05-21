@@ -34,6 +34,11 @@ Choose the following frameworks
 <img width="1104" alt="image" src="https://github.com/anhhanuman/githubApi/assets/43400649/87bee638-c39f-4392-b90b-9069f4f4ba59">
 
 #### Test cases design friendly csvs
+
+#### 1. Test if appium and cypress repo can still be working normally
+<img width="1444" alt="image" src="https://github.com/anhhanuman/githubApi/assets/43400649/1c26f5b4-6601-4f6a-b219-ec2d342f598b">
+
+#### 2. Test if appium repo branches can still be working normally
 <img width="1974" alt="image" src="https://github.com/anhhanuman/githubApi/assets/43400649/7afeb6aa-c949-416f-b1ab-c4c0c4cc7029">
 
 ### CI jobs parallel
