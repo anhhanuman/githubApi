@@ -1,3 +1,3 @@
 description,input_owner,input_repo,tc_01,expected_status,tc_02,expected_response_time
 test if appium github repo still working normally,appium,appium,should respond valid status,200,should respond within valid time,1000
-test if appium github repo still working normally,cypress-io,cypress,should respond valid status,200,should respond within valid time,1000
+test if cypress github repo still working normally,cypress-io,cypress,should respond valid status,200,should respond within valid time,1000
