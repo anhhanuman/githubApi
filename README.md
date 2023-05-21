@@ -24,3 +24,20 @@ Choose the following frameworks
 - Dashboard deployments for test results
 - Performance tests
 - Contract tests
+
+### Highlights
+
+#### Postman scripting - resuable functions
+<img width="852" alt="image" src="https://github.com/anhhanuman/githubApi/assets/43400649/363cac4a-af77-4c38-9ec5-d46e2bbd4a72">
+
+#### Mantainable tests
+<img width="1104" alt="image" src="https://github.com/anhhanuman/githubApi/assets/43400649/87bee638-c39f-4392-b90b-9069f4f4ba59">
+
+#### Test cases design friendly csvs
+<img width="1974" alt="image" src="https://github.com/anhhanuman/githubApi/assets/43400649/7afeb6aa-c949-416f-b1ab-c4c0c4cc7029">
+
+### CI jobs parallel
+<img width="1858" alt="image" src="https://github.com/anhhanuman/githubApi/assets/43400649/1cf7898a-6c60-4343-8d9b-17138cf8a273">
+
+#### Reports clearly
+<img width="1114" alt="image" src="https://github.com/anhhanuman/githubApi/assets/43400649/6ba0b3f7-370b-49c5-9386-e64eea9ca797">
