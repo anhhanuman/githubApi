@@ -1,4 +1,4 @@
-name: repoes and appium branch
+name: github repositories and appium branch jobs
 on:
   workflow_dispatch:
 env:
