@@ -1,7 +1,7 @@
 ### Test Automation with GitHub API
 
 Choose the following frameworks
-- **Postman**: Nasdaq Tower for being named to the 2023 [Enterprise Tech 30 list]([Enterprise Tech 30 list](https://www.linkedin.com/posts/postman-platform_were-on-the-nasdaq-tower-for-being-named-activity-7064653402059747329-BC4n/?trk=public_profile_like_view))
+- **Postman**: Nasdaq Tower for being named to the 2023 ([Enterprise Tech 30 list](https://www.linkedin.com/posts/postman-platform_were-on-the-nasdaq-tower-for-being-named-activity-7064653402059747329-BC4n/?trk=public_profile_like_view))
 - **GitHub Actions**: Microsoft leading hosting services, version control, continuous integration
 - **Bash**
 - **Javascript** Postman provides scripting with Javascript
